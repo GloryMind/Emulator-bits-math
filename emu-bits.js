@@ -400,7 +400,7 @@ function MoreBits(number, ext) {
 		return res;
 	}
 	
-	this.toNumber = function(countBits, uint = false) {
+	this.toNumber = function(countBits, uint) {
 		var res = "0";
 		var tg = this.clone();
 
